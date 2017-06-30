@@ -1,4 +1,4 @@
-# iView SSR Test Project
+# iview-ssr-test
 
 > iView SSR test based on nuxt framework.
 

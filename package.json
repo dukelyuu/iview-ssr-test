@@ -5,6 +5,7 @@
   "author": "Lawrence Lee <lawrence.lee@foxmail.com>",
   "private": true,
   "dependencies": {
+    "iview": "^2.0.0-rc.18",
     "nuxt": "latest"
   },
   "scripts": {

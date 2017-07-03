@@ -24,6 +24,9 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
+    vendor: [
+      'iview'
+    ],
     extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
@@ -34,5 +37,9 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  css: [
+    'iview/dist/styles/iview.css'
+  ],
+  plugins: ['~plugins/iview']
 }

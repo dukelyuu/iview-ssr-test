@@ -36,7 +36,10 @@ module.exports = {
     }
   },
   css: [
-    'iview/dist/styles/iview.css'
+    {
+      src: '~plugins/iview/src/styles/index.less',
+      lang: 'less'
+    }
   ],
   plugins: ['~plugins/iview.js']
 }

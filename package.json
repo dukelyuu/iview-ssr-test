@@ -5,8 +5,11 @@
   "author": "Lawrence Lee <lawrence.lee@foxmail.com>",
   "private": true,
   "dependencies": {
-    "iview": "^2.0.0-rc.18",
-    "nuxt": "latest"
+    "async-validator": "^1.7.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "nuxt": "latest",
+    "popper.js": "^1.10.8"
   },
   "scripts": {
     "dev": "nuxt",

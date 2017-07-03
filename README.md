@@ -2,6 +2,12 @@
 
 > iView SSR test based on nuxt framework.
 
+## Clone
+
+```
+git clone --recursive [project url]
+```
+
 ## Build Setup
 
 ``` bash

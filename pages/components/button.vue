@@ -1,12 +1,15 @@
 <template>
   <div>
-    <!-- KNOWN BUG: CANNOT RENDER 2+ Buttons in the same time. -->
     <Button type="primary" @click="printInfo">Primary Button</Button>
     <Button type="primary" @click="changeToLoading" :loading="loading">Click to loading</Button>
   </div>
 </template>
 <script>
+import iView from '~/plugins/iview/src/index.js'
 export default {
+  components: {
+    Button: iView.Button
+  },
   methods: {
     printInfo () {
       console.log('Hello!')

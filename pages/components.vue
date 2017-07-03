@@ -1,7 +1,14 @@
 <template>
   <div>
     <div>Components Test: </div>
-    <nuxt-child />
+    <DemoButton></DemoButton>
   </div>
 </template>
-
+<script>
+import DemoButton from './components/button'
+export default {
+  components: {
+    DemoButton
+  }
+}
+</script>

@@ -2,6 +2,12 @@
 
 > iView SSR test based on nuxt framework.
 
+## Notice
+
+Since we use git submoudles from a personal fork of iView, it's hard for us to accept any contribution beacuse users who fork this repo don't have the push permission for its submodule (lcx960324/iview).
+
+If you want to help us test iview components, you have to fork this repo and an iview repo, then replace the submodule in (plugins/iview) to your iview fork.
+
 ## Clone
 
 ```

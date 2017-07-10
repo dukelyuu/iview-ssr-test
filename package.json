@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "async-validator": "^1.7.1",
+    "iview": "^2.0.0-rc.18",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
     "nuxt": "latest",

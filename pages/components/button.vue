@@ -5,11 +5,7 @@
   </div>
 </template>
 <script>
-import iView from '~/plugins/iview/src/index.js'
 export default {
-  components: {
-    Button: iView.Button
-  },
   methods: {
     printInfo () {
       console.log('Hello!')

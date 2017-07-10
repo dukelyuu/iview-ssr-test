@@ -3,16 +3,8 @@
 > iView SSR test based on nuxt framework.
 
 ## Notice
-
-Since we use iview/iview as a git submoudle, you can only help us test the components but you cannot fix any bugs caused by iview itself beacuse users who fork this repo don't have the push permission for its submodule (iview/iview).
-
-If you want to help us test iview components, you have to fork this repo and an iview repo, then replace the submodule in (plugins/iview) with your iview fork.
-
-## Clone
-
-```
-git clone --recursive [project url]
-```
+Please replace `iview.js` in `node_modules/iview/dist/` with following file after install all dependencies:
+http://7u2ka3.com1.z0.glb.clouddn.com/ssr/iview.js
 
 ## Build Setup
 

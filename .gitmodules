@@ -1,0 +1,3 @@
+[submodule "plugins/iview"]
+	path = plugins/iview
+	url = https://github.com/iview/iview.git

@@ -1,5 +1,5 @@
 <template>
-  <Form>
+  <Form label-position="top">
     <Form-item label="input">
       <Input></Input>
       <Input icon="ios-clock-outline" placeholder="请输入..." style="width: 200px"></Input>
@@ -16,6 +16,26 @@
           </Select>
       </Input>
     </Form-item>
+    <Form-item label="radio">
+      <Radio-group v-model="radio1">
+          <Radio label="金斑蝶"></Radio>
+          <Radio label="爪哇犀牛" disabled></Radio>
+          <Radio label="印度黑羚"></Radio>
+      </Radio-group>
+      <br/>
+      <Radio-group v-model="radio1" vertical>
+          <Radio label="金斑蝶"></Radio>
+          <Radio label="爪哇犀牛" disabled></Radio>
+          <Radio label="印度黑羚"></Radio>
+      </Radio-group>
+      <br/>
+      <Radio-group v-model="radio2" type="button">
+        <Radio label="北京"></Radio>
+        <Radio label="上海" disabled></Radio>
+        <Radio label="深圳"></Radio>
+        <Radio label="杭州"></Radio>
+    </Radio-group>
+    </Form-item>
   </Form>
 </template>
 <script>
@@ -23,7 +43,9 @@ export default {
   data () {
     return {
       select1: 'http',
-      select2: 'com'
+      select2: 'com',
+      radio1: '金斑蝶',
+      radio2: '北京'
     }
   }
 }

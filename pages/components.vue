@@ -9,7 +9,7 @@
           Icon
         </Menu-item>
         <Menu-item name="form">
-          form
+          Form
         </Menu-item>
       </Menu>
     </div>

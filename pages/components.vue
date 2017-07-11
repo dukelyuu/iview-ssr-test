@@ -8,6 +8,9 @@
         <Menu-item name="icon">
           Icon
         </Menu-item>
+        <Menu-item name="form">
+          form
+        </Menu-item>
       </Menu>
     </div>
     <div class="components-container">
@@ -19,12 +22,23 @@
 export default {
   data () {
     return {
-      name: 'button'
     }
   },
   methods: {
     gotoRoute (name) {
       this.$router.push(name)
+    }
+  },
+  computed: {
+    name () {
+      const route = this.$router.currentRoute.name.split('-')[1]
+      return route || 'button'
+    }
+  },
+  created () {
+    console.log(this.$router)
+    if (this.$router.currentRoute.path === '/components') {
+      this.$router.push('components/button')
     }
   }
 }

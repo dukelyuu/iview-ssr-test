@@ -36,7 +36,6 @@ export default {
     }
   },
   created () {
-    console.log(this.$router)
     if (this.$router.currentRoute.path === '/components') {
       this.$router.push('components/button')
     }

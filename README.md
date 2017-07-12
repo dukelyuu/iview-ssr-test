@@ -3,8 +3,8 @@
 > iView SSR test based on nuxt framework.
 
 ## Notice
-Please replace `iview.js` in `node_modules/iview/dist/` with following file after install all dependencies:
-http://7u2ka3.com1.z0.glb.clouddn.com/ssr/iview.js
+Please clone the current iview repo (https://github.com/iview/iview.git) then build the latest version of iview by executing `npm run dist`.
+After building, please replace `iview.js` in `node_modules/iview/dist/` with the file you built. It's in `dist/`
 
 ## Build Setup
 

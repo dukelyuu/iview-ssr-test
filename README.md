@@ -3,6 +3,11 @@
 > iView SSR test based on nuxt framework.
 
 ## Notice
+
+### 2017.07.15
+We've updated Vue version of this project to 2.4.1.
+
+### 2017.07.12
 Please clone the current iview repo (https://github.com/iview/iview.git) then build the latest version of iview by executing `npm run dist`.
 After building, please replace `iview.js` in `node_modules/iview/dist/` with the file you built. It's in `dist/`
 

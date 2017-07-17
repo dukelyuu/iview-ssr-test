@@ -1,6 +1,3 @@
-<style lang="less">
-    @import "../src/styles/index.less";
-</style>
 <style scoped>
 nav { margin-bottom: 40px; }
 ul { display: flex; flex-wrap: wrap; }

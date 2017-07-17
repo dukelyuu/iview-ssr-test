@@ -15,6 +15,7 @@
     }
 </style>
 <template>
+  <div>
     <i-button @click="modal9 = true">距离顶部 20px</i-button>
     <Modal
             title="对话框标题"
@@ -36,6 +37,7 @@
     <i-button @click="instance(true)">Create Instance Scrollable</i-button>
     <i-button @click="instance(false)">Create Instance Non-scrollable</i-button>
     <div class="placeholder"></div>
+  </div>
 </template>
 <script>
     export default {
